@@ -11,7 +11,6 @@ for x3 = 0:0.1:1
         for x1 = 0:0.1:1
             x = [x1; x2; x3];
 
-            end
         end
     end
 end
