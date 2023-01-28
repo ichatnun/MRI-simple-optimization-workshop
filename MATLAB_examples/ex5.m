@@ -119,7 +119,7 @@ end
 
 % Apply the forward model: MFx
 function Ax = applyA(x,M)
-    Fx = fft2c(x);
+    Fx = ...
     MFx = M.*Fx;
     Ax = MFx;
 end
